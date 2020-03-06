@@ -1,0 +1,23 @@
+hash: d282beb8e5ae4515e2c6dbac4972c321797882fbd735ffb04ff5f3b7e5fcb72f
+updated: 2020-03-06T17:26:44.775075267-03:00
+imports:
+- name: github.com/jinzhu/gorm
+  version: 79a77d771dee4e4b60e9c543e8663bbc80466670
+  subpackages:
+  - dialects/postgres
+- name: github.com/jinzhu/inflection
+  version: 196e6ce06ca4513fbcfcbc35dc15f66074df47c9
+- name: github.com/lib/pq
+  version: 99274577be97ac9b1d95a2d61d566dc9b7cc6a54
+  subpackages:
+  - hstore
+  - oid
+  - scram
+- name: github.com/rs/zerolog
+  version: f1dd50b8c64d79be1392edf1d8fda5cedea4916d
+  subpackages:
+  - internal/cbor
+  - internal/json
+- name: github.com/uol/logh
+  version: 04611a676395e92babe6a4e3f5d0aa517ec0b0d5
+testImports: []
